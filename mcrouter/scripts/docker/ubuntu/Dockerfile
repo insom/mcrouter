@@ -3,7 +3,8 @@
 FROM            ubuntu:focal
 
 ENV             MCROUTER_DIR            /usr/local/mcrouter
-ENV             MCROUTER_REPO           https://github.com/facebook/mcrouter.git
+ENV             MCROUTER_REPO           https://github.com/insom/mcrouter.git
+ENV             MCROUTER_REV            april2022
 ENV             DEBIAN_FRONTEND         noninteractive
 
 ENV             PKG_DIR                 $MCROUTER_DIR/pkgs
